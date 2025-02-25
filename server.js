@@ -6,10 +6,10 @@ const http = require('http');
 const server = http.createServer((request , response ) => {
  
   // set the response header
-  response.writeHead(200, { 'Content-Type': 'text/plain' });
+  response.writeHead(200, { 'Content-Type': 'json/application' });
 
   // set the response body 
-  response.end('Hello world');
+  response.end(JSON.stringify({ message: 'Hello world' }));
 
 })
 
