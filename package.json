@@ -1,0 +1,28 @@
+{
+  "name": "be-fsdb11node",
+  "version": "1.0.0",
+  "description": "Backend Repo for the Job Portal Application",
+  "homepage": "https://github.com/Rajpravinkumar/Guvi-class-Node.js#readme",
+  "bugs": {
+    "url": "https://github.com/Rajpravinkumar/Guvi-class-Node.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajpravinkumar/Guvi-class-Node.js.git"
+  },
+  "license": "ISC",
+  "author": "rajpravinkumar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
