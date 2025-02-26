@@ -11,6 +11,9 @@ const jobRouter = require("./routes/jobRoutes");
 
 const app = express();
 
+// use the express json middleware
+app.use(express.json());
+
 // use middleware
 app.use(logger);
 
