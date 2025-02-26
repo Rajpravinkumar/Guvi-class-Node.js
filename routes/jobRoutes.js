@@ -9,7 +9,7 @@ jobRouter.get("/", jobController.getJobs);
 jobRouter.post("/", jobController.createJob);
 jobRouter.get("/:id", jobController.getJobID);
 jobRouter.get("/search", jobController.searchJobs);
-jobRouter.put("/:id", jobController.getJobID);
-jobRouter.delete("/:id", jobController.getJobID);
+jobRouter.put("/:id", jobController.updateJob);
+jobRouter.delete("/:id", jobController.deleteJobs);
 
 module.exports = jobRouter;
